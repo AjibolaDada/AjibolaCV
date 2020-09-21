@@ -1,18 +1,34 @@
 body {
 
     background-color: #ecf4f3;
+    font-family: "Gill sans", sans-serif;
 }
 
 hr {
     background-color: none;
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 5px;
-    width: 5%;  
+    border-top-style:
+    border-color: white;
+    border-width: 1px;
+    width: 100%; 
 }
 img {
 	height: 195px;
 }
 h1,h3 {
 	color: #ff7e67;
+}
+input[type =text], select, textarea {
+	width: 50%;
+	padding: 8px;
+	border: 0.5px solid;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 5px;
+	margin-bottom: 10px; 
+
+}
+input[type =Submit] {
+	padding: 8px;
+	background-color: #ff7e67;
+
 }
